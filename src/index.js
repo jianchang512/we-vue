@@ -1,5 +1,4 @@
 // This file is auto gererated by build/bin/build-entry.js
-import 'weui/dist/style/weui.min.css'
 import Actionsheet from './components/actionsheet'
 import Badge from './components/badge'
 import Button from './components/button'
@@ -46,7 +45,7 @@ import Textarea from './components/textarea'
 import Toast from './components/toast'
 import TopTips from './components/top-tips'
 
-const version = '2.1.6'
+const version = '2.2.0'
 const components = [
   Actionsheet,
   Badge,
