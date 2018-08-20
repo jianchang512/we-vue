@@ -1,19 +1,5 @@
 <template>
   <div>
-    <wv-tab-container
-      swipeable
-    >
-      <wv-tab-container-item>
-        <div class="tab-page-content bg1">1</div>
-      </wv-tab-container-item>
-      <wv-tab-container-item>
-        <div class="tab-page-content bg2">2</div>
-      </wv-tab-container-item>
-      <wv-tab-container-item>
-        <div class="tab-page-content bg3">3</div>
-      </wv-tab-container-item>
-    </wv-tab-container>
-
     <wv-tabbar>
       <wv-tabbar-item to="/" is-on>
         <span slot="icon" class="tab-icon">
@@ -78,17 +64,5 @@ export default {
     color: #000;
     font-size: 2rem;
     font-weight: bold;
-  }
-
-  .bg1 {
-    background-color: #f00;
-  }
-
-  .bg2 {
-    background-color: #ff0;
-  }
-
-  .bg3 {
-    background-color: #f0f;
   }
 </style>
